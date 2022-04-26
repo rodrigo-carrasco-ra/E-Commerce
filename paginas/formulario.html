@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+<link rel="stylesheet" href="estilo.css"> 
+<title>Formulario</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../estilo/css/bulma.min.css">
+<link rel="stylesheet" href="../estilo/css/estilo.css">
+<link href="../estilo/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet"> 
+<title>Ocio Wargames</title>
+</head>
+<body>
+  <div class="barratop">
+
+    <table>
+      <tr>
+        <td><p>Tienda especialista en venta de miniaturas de Warhammer 40.000</p></td>
+      </tr>
+    </table> 
+  </div>
+  
+  <header>
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../index.html">
+        <img src="../fotos/logo.png" alt="Ocio Wargames!">
+
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="../index.html">
+          Inicio
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" >
+            Ejércitos
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="../paginas/marines.html">
+              Marines Espaciales
+            </a>
+            <a class="navbar-item" href="../paginas/imperium.html">
+              Ejércitos del Imperium
+            </a>
+            <a class="navbar-item" href="../paginas/chaos.html">
+              Ejércitos del Chaos
+            </a>
+            <a class="navbar-item" href="../paginas/xenos.html">
+              Ejércitos Xenos
+            </a>
+          </div>
+        </div>
+      </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar en la tienda" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+  
+<header><h1 class="title is-1 is-spaced">¡Contáctenos!</h1></header>
+
+
+<form class="formulario" action="contacto.php" method ="post">
+<fieldset>
+  <h3 class="subtitle">Formulario de contacto</h3>
+  <table>
+    <tr>
+     <td><label for="Nombre">Nombre:</label></td>
+     <td><input type="text" size="auto" name="nombre"></td> 
+    </tr>
+     <tr>
+     <td><label for="email">Email:</label></td>
+     <td><input type="email" size="auto" name="email"></td> 
+    </tr>
+    <tr>
+      <td>  <label for="subscribir">¿Te gustaría recibir noticias de nuetra tienda?
+        <input type="checkbox" name="si" value="si">Si 
+        <input type="checkbox" name="no" value="no">No </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="pregunta2">Cotización</label>
+        <select name="uso">
+        <option> Minorista
+        <option> Mayorista 
+        <option> No 
+      </td>
+    </tr>
+    <tr>
+      <td>
+   <label for="texto">Escriba aquí su consulta</label>
+   <textarea name="opinion" rows="5" cols="70"></textarea>
+    </td> 
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+  <input class="btn" type="submit" value="Enviar"/>
+  <input class="btn" type="reset" value="Borrar"/>
+</fieldset>
+</form>
+
+<footer>
+  <table>
+    <tr>
+      <td><address><p><img src="../fotos/correo.png" width="15" height="10" class="imagen"/><a href="mailto:contacto@ociowargames.cl">&nbsp;contacto@ociowargames.cl</a></address></p> </td>
+      
+      <td><p><img src="../fotos/telefono.png" width="18" height="18" class="imagen"/>&nbsp;+56912345678</p> </td>
+                  
+      <td><p><img src="../fotos/ubicacion.png" width="15" height="20" class="imagen"/><a href="https://www.google.com/maps/d/u/0/viewer?mid=1VnrPww1dxvzWFAWez7sTzBeBy-8&ll=-33.29423117703731%2C-70.49340980050556&z=10">&nbsp;&nbsp;Santiago, Chile</a></p> </td> 
+    </tr>
+  </table>
+</footer>
+</body>
+</html>

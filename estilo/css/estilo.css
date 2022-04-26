@@ -1,0 +1,123 @@
+
+
+header hgroup{ 
+    text-align: center;
+}
+
+.barratop  {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 700px;
+    background-color:#27393b;
+    color: white;
+    border-bottom: 2px solid rgb(234, 223, 15);
+
+}
+
+.subtitle{
+    margin-bottom: 30px;
+}
+
+.container {
+position: center;
+width: 50%;
+}
+  
+.banner_imagen {
+display: block;
+width: 100%;
+height: auto;
+}
+  
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #27393bc5;
+}
+  
+.container:hover .overlay {
+opacity: 1;
+}
+  
+.banner_texto {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+section table {  
+margin-left: auto;
+margin-right: auto;
+padding: 10px;}
+
+footer {
+    width: 100%;
+    border-top: 1px solid rgb(234, 223, 15);
+    background-color: #27393b;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 700px;
+    color: azure;
+    font-style:normal;
+    text-align: center;
+
+}
+
+.descripcion {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.precios  {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border-spacing: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color:black;
+    text-align: center;
+    font-family: 'Trebuchet MS',  sans-serif;
+    margin-bottom: 50px;
+    
+
+}
+
+.precios hr {
+    padding: 0px;
+    margin: 0px;
+    border-top: black;
+}
+
+.imagen {
+    padding: 20px;
+}
+
+.title
+{
+    color: rgb(26, 26, 62);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.formulario {
+    color:black;
+}
