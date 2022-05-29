@@ -23,7 +23,22 @@ header hgroup{
 position: center;
 width: 50%;
 }
-  
+
+.carrito p {
+    border: 1 px solid black;
+}
+.carrito ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.carrito a {
+    background-color: royalblue;
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+}
 .banner_imagen {
 display: block;
 width: 100%;
@@ -109,6 +124,41 @@ footer {
     padding: 20px;
 }
 
+/* Inicio estilo tarjeta */
+.tarjeta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .articulo {
+      font-size: 20px;
+  }
+
+  .precio {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .tarjeta button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #27393b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .tarjeta button:hover {
+    opacity: 0.7;
+  }
+
+/* fin estilo tarjeta */
 .title
 {
     color: rgb(26, 26, 62);
