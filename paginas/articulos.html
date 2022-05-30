@@ -5,9 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../estilo/css/bulma.min.css">
 <link rel="stylesheet" href="../estilo/css/estilo.css">
+<link rel="stylesheet" href="../estilo/css/estilo_carrito.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
 <link href="../estilo/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet"> 
-<script src="/scripts/codigo.js"> </script>
+<script src="/scripts/script_carrito.js"> </script>
 <title>Ocio Wargames - Articulos</title>
 </head>
 <body>
@@ -59,11 +63,33 @@
     </div>
   </nav>
 
-<!-- Space Marines -->
+<!-- Inicio Carrito -->
+  <div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Carrito Vacio</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">Total</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">Comprar</button>
+        </div>
+      </div>
+</div>
+<!-- Fin Modal Carrito-->
+
+<!--Boton Carrito -->
+<div class="cart-btn">
+  <i id="cart" class="fas fa-shopping-cart"></i>
+    <span class ="cart-quantity">0</span>
+</div>
+
 
 <header> <h1 class="title is-1 is-spaced">Artículos disponibles</h1></header> 
     
-
+<!-- Space Marines -->
 <h2 class="title is-1 is-spaced">Marines Espaciales</h2></header>
 
 <article>
@@ -74,20 +100,23 @@
 
       <table>
       <tr>
-        <td>  
-          <div class="tarjeta">
-          <img src="../fotos/space_marines/codex_spacemarines.jpg" class="imagen" alt="Codex:space marines" style="width:100%"></a>
-          <p class="articulo">Codex: Marines Espaciales</p>
-          <p class="precio">$43.990</p>
-          <p><button>Añadir al carrito</button></p>
-          </div>
+        <td> 
+          <div class="items-container">
+            <div class="card-1 card">
+              <img class="product-image" src="../fotos/space_marines/codex_spacemarines.jpg" class="imagen" alt="Codex:space marines">
+              <p class="articulo">Codex: Marines Espaciales</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+                  <span class="product-price">$43.990</span>
+            </div>
+           
+
         </td>
         <td>  
           <div class="tarjeta">
           <img src="../fotos/space_marines/combatspacemarines.jpg" class="imagen" alt="Combat space marines" style="width:100%"></a>
           <p class="articulo">Patrulla de Combate: Marines Espaciales</p>
           <p class="precio">$109.990</p>
-          <p><button>Añadir al carrito</button></p>
+          <p><button class="agregar-al-carrito">Añadir al carrito</button></p>
           </div>
         </td>
         <td>  
@@ -95,7 +124,7 @@
           <img src="../fotos/space_marines/capitangravisarmour.jpg" class="imagen" alt="Cap gravis armour" style="width:100%"></a>
           <p class="articulo">Capitán en armadura Gravis</p>
           <p class="precio">$31.990</p>
-          <p><button>Añadir al carrito</button></p>
+          <p><button class="agregar-al-carrito">Añadir al carrito</button></p>
           </div>
         </td>
       </tr>
@@ -105,7 +134,7 @@
           <img src="../fotos/space_marines/captain_with_mastercrafted_heavy_bolt_rifle.jpg" class="imagen" alt="mastercrafted heavy bolter" style="width:100%"></a>
           <p class="articulo">Capitán rifle bolter pesado artesanal</p>
           <p class="precio">$30.990</p>
-          <p><button>Añadir al carrito</button></p>
+          <p><button class="agregar-al-carrito">Añadir al carrito</button></p>
           </div>
         </td>
         <td>  
@@ -113,7 +142,7 @@
           <img src="../fotos/space_marines/primaris_intercessors.jpg" class="imagen" alt="Intercessors" style="width:100%"></a>
           <p class="articulo">Primaris Intercesores</p>
           <p class="precio">$49.990</p>
-          <p><button>Añadir al carrito</button></p>
+          <p><button class="agregar-al-carrito">Añadir al carrito</button></p>
           </div>
         </td>
         <td>  
@@ -121,7 +150,7 @@
           <img src="../fotos/space_marines/tactical_squad.jpg" class="imagen" alt="Escuadrón Táctico" style="width:100%"></a>
           <p class="articulo">Escuadrón Táctico</p>
           <p class="precio">$29.990</p>
-          <p><button>Añadir al carrito</button></p>
+          <p><button class="agregar-al-carrito">Añadir al carrito</button></p>
           </div>
         </td>
       </tr>
