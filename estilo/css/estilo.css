@@ -104,78 +104,27 @@ width: 50%;
 
 
 section table {  
-margin-left: auto;
-margin-right: auto;
-padding: 10px;}
 
-
+padding: 10px;
+max-width: 77%;
+border-collapse: collapse !important;
+border-spacing: 0 !important;
+}
 
 .descripcion {
     color: black;
     text-align: center;
     margin-bottom: 20px;
 }
-.precios  {
-    margin: 0 auto;
-    width: 50%;
-    padding: 20px;
-    border-spacing: 50px;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    color:black;
-    text-align: center;
-    font-family: 'Trebuchet MS',  sans-serif;
-    margin-bottom: 50px;
-    
-
-}
-
-.precios hr {
-    padding: 0px;
-    margin: 0px;
-    border-top: black;
-}
 
 .imagen {
     padding: 20px;
 }
 
-/* Inicio estilo tarjeta */
-.tarjeta {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 30%;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-
-  .articulo {
-      font-size: 20px;
-  }
-
-  .precio {
-    color: grey;
+.artic {
     font-size: 20px;
-  }
-  
-  .tarjeta button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #27393b;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .tarjeta button:hover {
-    opacity: 0.7;
-  }
+}
 
-/* fin estilo tarjeta */
 .title
 {
     color: rgb(26, 26, 62);
@@ -188,6 +137,7 @@ padding: 10px;}
 .formulario {
     color:black;
 }
+
 
 footer {
     margin-top: 100px;

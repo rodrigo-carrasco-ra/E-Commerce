@@ -1,3 +1,5 @@
+
+
 // abrir carro modal
 const carro = document.querySelector('#cart');
 const cartModalOverlay = document.querySelector('.cart-modal-overlay');
@@ -62,7 +64,7 @@ function agregar (precio, imagenSrc) {
         <img class="cart-image" src="${imagenSrc}" alt="">
         <span class ="cart-price">${precio}</span>
         <input class="product-quantity" type="number" value="1">
-        <button class="remove-btn">Remove</button>
+        <button class="remove-btn">Borrar</button>
         </div>
         
       `
@@ -133,7 +135,7 @@ const closeCartModal = document.querySelector('.cart-modal');
 comprarBtn.addEventListener('click', comprarBtnClicked)
 
 function comprarBtnClicked () {
-  alert ('Thank you for your purchase');
+  alert ('Gracias por su compra');
   cartModalOverlay.style.transform= 'translateX(-100%)'
  var carroArticulos = document.getElementsByClassName('product-rows')[0]
  while (carroArticulos.hasChildNodes()) {
@@ -143,4 +145,13 @@ function comprarBtnClicked () {
   actualizarCarro()
 }
 // fin
+
+const matrix=[
+  [01,"Codex: Marines Espaciales",43990,'98 hojas de datos que cubren las unidades disponibles para cada Capítulo',12],
+  [02,"Patrulla de Combate: Marines Espaciales",109990,"Una fuerza de tamaño Patrulla en una caja, ¡diseñada para ahorrarte dinero!",10],
+  [03,'Capitán en armadura Gravis',31990,'Una elección de Cuartel General indomable para tu ejército de Marines Espaciales.',50]
+  [04,'Capitán rifle bolter pesado artesanal',30990,'Del Cuartel General. Armado con armadura Mk X Gravis y rifle bólter pesado artesanal',20]
+  [05,'Primaris Intercesores',49990,'10 miniaturas multicomponentes para estar en primera fila.',50]
+  [06,'Escuadrón Táctico',29990,'Controlan terreno y proporcionan fuego de apoyo y se lanzan al cuerpo a cuerpo, según dicten las necesidades del momento',45]
+  ]
 
