@@ -14,62 +14,42 @@
 </head>
 <body>
   <div class="barratop">
-
     <table>
       <tr>
         <td><p>Tienda especialista en venta de miniaturas de Warhammer 40.000</p></td>
       </tr>
-    </table> </div>
-  
-  <header>
-  <nav class="navbar is-transparent">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
-        <img src="fotos/logo.png" alt="Ocio Wargames!">
-
-    </div>
-
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="index.html">
-          Inicio
-        </a>
-        <a class="navbar-item" href="paginas/formulario.html">
-          Contáctenos
-        </a>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" >
-            Ejércitos
-          </a>
-          <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item" href="paginas/marines.html">
-              Marines Espaciales
-            </a>
-            <a class="navbar-item" href="paginas/imperium.html">
-              Ejércitos del Imperium
-            </a>
-            <a class="navbar-item" href="paginas/chaos.html">
-              Ejércitos del Chaos
-            </a>
-            <a class="navbar-item" href="paginas/xenos.html">
-              Ejércitos Xenos
-            </a>
+    </table> 
+  </div>
+      <nav class="navbar navbar-expand-lg navbar-dark border-3 border-bottom border-primary">
+          <div class="container-fluid">
+              <img src="./fotos/logo.png" class="navbar-brand"></a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div id="MenuNavegacion" class="collapse navbar-collapse">
+                  <ul class="navbar-nav ms-3">
+                      <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#Contactenos">Contáctenos</a></li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#Ejercitos" role="button" data-bs-toggle="dropdown">
+                              Ejércitos    
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="paginas/marines.html">Marines Espaciales</a></li>
+                              <li><a class="dropdown-item" href="paginas/en_construccion.html">Ejércitos del Imperium</a></li>
+                              <li><a class="dropdown-item" href="paginas/en_construccion.html">Ejércitos del Chaos</a></li>
+                              <li><a class="dropdown-item" href="paginas/en_construccion.html">Ejércitos Xenos</a></li>
+                          </ul>
+                          </li>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </div>
-      </div>
-      <p class="carrito" >
-        <a href="/paginas/carrito.html">
-          <ion-icon name="basket"></ion-icon>Carrito <span>0</span>
-        </a>
-
-      </p>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar en la tienda" aria-label="Buscar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
-    </div>
-  </nav>
+          <form class="form-inline">
+            <input class="form-control mr-lg-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+      </nav>
   
 <hgroup>
   <h1 class="title">Bienvenido a  </h1><img src="fotos/logo.png" alt="Ocio Wargames!">
@@ -83,13 +63,13 @@
       <td> <div class="container"><a href="paginas/marines.html"> <img src="fotos/banners/angeles-sangrientos-600x325.jpg" alt="Space Marines Banner" class="banner_imagen"> <div class="overlay">
           <div class="banner_texto" >Marines Espaciales</div> </div> </div> </a> </td> </tr>
     <tr> 
-      <td> <div class="container"><a href="paginas/imperium.html"> <img src="fotos/banners/astra-militarum.jpg" alt="Astra Militarum Banner" class="banner_imagen"> <div class="overlay">
+      <td> <div class="container"><a href="paginas/en_construccion.html"> <img src="fotos/banners/astra-militarum.jpg" alt="Astra Militarum Banner" class="banner_imagen"> <div class="overlay">
           <div class="banner_texto">Ejércitos del Imperium</div> </div> </div></a> </td> </tr>
     <tr>
-      <td> <div class="container"><a href="paginas/chaos.html"> <img src="fotos/banners/marines-del-caos-660x330.jpg" alt="Chaos Banner" class="banner_imagen"> <div class="overlay">
+      <td> <div class="container"><a href="paginas/en_construccion.html"> <img src="fotos/banners/marines-del-caos-660x330.jpg" alt="Chaos Banner" class="banner_imagen"> <div class="overlay">
           <div class="banner_texto">Ejércitos del Chaos</div> </div> </div></a> </td> </tr>
     <tr>
-      <td> <div class="container"><a href="paginas/xenos.html"> <img src="fotos/banners/orkos-660x330.jpg" alt="Xenos Banner" class="banner_imagen"> <div class="overlay">
+      <td> <div class="container"><a href="paginas/en_construccion.html"> <img src="fotos/banners/orkos-660x330.jpg" alt="Xenos Banner" class="banner_imagen"> <div class="overlay">
           <div class="banner_texto">Ejércitos Xenos</div> </div> </div> </a> </td> </tr>
     
     
@@ -99,17 +79,46 @@
 
 </article>
 
-<footer>
-  <table>
-    <tr>
-      <td><address><p><img src="fotos/correo.png" width="15" height="10" class="imagen"/><a href="mailto:contacto@ociowargames.cl">&nbsp;contacto@ociowargames.cl&nbsp;</a></address></p> </td>
-      
-      <td><p><img src="fotos/telefono.png" width="18" height="18" class="imagen"/>&nbsp;+56912345678&nbsp;</p> </td>
-                  
-      <td><p><img src="fotos/ubicacion.png" width="15" height="20" class="imagen"/><a href="https://www.google.com/maps/d/u/0/viewer?mid=1VnrPww1dxvzWFAWez7sTzBeBy-8&ll=-33.29423117703731%2C-70.49340980050556&z=10">&nbsp;&nbsp;Santiago, Chile&nbsp;</a></p> </td> 
-    </tr>
-  </table>
+<footer class=" text-center text-white">
+  <div class="container p-4">
+    <section class="mb-4">
+      <p>
+        Ociowargames
+      </p>
+    </section>
+
+
+    <section class="links">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h5 class="text-uppercase">Ejércitos</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="paginas/marines.html" class="text-white">Marines Espaciales</a> 
+            </li>
+            <li>
+              <a href="paginas/en_construccion.html" class="text-white">Ejercitos del Imperium</a>
+            </li>
+            <li>
+              <a href="paginas/en_construccion.html" class="text-white">Ejercitos del Chaos</a>
+            </li>
+            <li>
+              <a href="paginas/en_construccion.html" class="text-white">Ejercitos Xenos</a>
+            </li>
+          </ul>
+        </div>
+    </section>
+  </div>
+  <!-- Grid container -->
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2022 INACAP
+  </div>
+
 </footer>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="./estilo/js/bootstrap.bundle.min.js"></script> 
+
 </body>
 </html>

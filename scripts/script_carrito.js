@@ -3,10 +3,10 @@ const carro = document.querySelector('#cart');
 const cartModalOverlay = document.querySelector('.cart-modal-overlay');
 
 carro.addEventListener('click', () => {
-  if (cartModalOverlay.style.transform === 'translateX(-200%)'){
+  if (cartModalOverlay.style.transform === 'translateX(-100%)'){
     cartModalOverlay.style.transform = 'translateX(0)';
   } else {
-    cartModalOverlay.style.transform = 'translateX(-200%)';
+    cartModalOverlay.style.transform = 'translateX(-100%)';
   }
 })
 // fin
