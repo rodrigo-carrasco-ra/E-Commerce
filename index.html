@@ -50,7 +50,30 @@
             <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
           </form>
       </nav>
-  
+
+<!-- Inicio Carrito -->
+<div class="cart-modal-overlay">
+    
+  <div class="cart-modal">
+    <i id="close-btn" class="fas fa-times"></i>
+      <h1 class="cart-is-empty">Carrito Vacio</h1>
+    
+      <div class="product-rows">
+      </div>
+      <div class="total">
+        <h1 class="cart-total">Total</h1>
+          <span class="total-price">$0</span>
+            <button class="purchase-btn">Comprar</button>
+      </div>
+    </div>
+</div>
+<!-- Fin Modal Carrito-->
+
+<!--Boton Carrito -->
+<div class="cart-btn">
+<i id="cart" class="fas fa-shopping-cart"></i>
+  <span class ="cart-quantity">0</span>
+</div>
 <hgroup>
   <h1 class="title">Bienvenido a  </h1><img src="fotos/logo.png" class="logo_index" alt="Ocio Wargames!">
   <h2 class="subtitle"> Elige el ejército que deseas comandar: </h2>
@@ -119,6 +142,7 @@
 </footer>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script src="./estilo/js/bootstrap.bundle.min.js"></script> 
+<script src="/scripts/script_carrito.js"> </script>
 
 </body>
 </html>
